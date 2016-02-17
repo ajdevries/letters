@@ -97,7 +97,7 @@ tasks.stage.doLast() {
     def name = "build/libs/${project.name}-${project.version}.war"
     copy {
         from(name) {
-            rename { 'tsuru-app.jar' }
+            rename { 'openshift.jar' }
         }
         into 'build/libs/'
     }
