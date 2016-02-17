@@ -122,7 +122,7 @@ environments:
         dataSource:
             dialect: 'org.hibernate.dialect.MySQL5InnoDBDialect'
             driverClassName: 'com.mysql.jdbc.Driver'
-            url: 'jdbc:mysql://${MYSQL_HOST}:${MYSQL_PORT}/${MYSQL_DATABASE}'
+            url: 'jdbc:mysql://${MYSQL_SERVICE_HOST}:${MYSQL_SERVICE_PORT}/${MYSQL_DATABASE}'
             username: '${MYSQL_USER}'
             password: '${MYSQL_PASSWORD}'
             properties:
